@@ -12,6 +12,7 @@ public class test {
     test bb = new test();
     bb.number(bb.aa);
     bb.number(bb.aa);
+    bb.number("434343");
 }
 }
 
