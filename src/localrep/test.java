@@ -11,7 +11,11 @@ public class test {
    public static void main(String[] args) {
     test bb = new test();
     bb.number(bb.aa);
+
     bb.number("ssss");
+
+    bb.number(bb.aa);
+
 }
 }
 
