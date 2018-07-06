@@ -9,14 +9,12 @@ public class test {
         System.out.println(aa); 
     }
    public static void main(String[] args) {
-    test bb = new test();
-    bb.number(bb.aa);
-
-    bb.number("ssss");
-
-    bb.number(bb.aa);
-
-}
+   String aa = "3";
+   String bb = aa;
+   System.out.println(bb);
+   aa = "4";
+   System.out.println(bb);
+   }
 }
 
 
